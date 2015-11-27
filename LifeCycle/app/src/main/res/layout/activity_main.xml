@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.stevelu.lifecycle.MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/btnNextA"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@color/gray"
+        android:gravity="center"
+        android:text="Next Page A"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/btnNextB"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@color/gray"
+        android:gravity="center"
+        android:text="Next Page B" />
+
+</LinearLayout>
